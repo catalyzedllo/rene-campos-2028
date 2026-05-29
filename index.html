@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rene Campos for President of the United States 2028. Constitutional civil rights advocate from Fresno, California. FEC ID: P40013386.">
+<meta property="og:title" content="Rene Campos for President 2028">
+<meta property="og:description" content="They moved the line. We changed the scale. Now we change the country.">
+<meta property="og:image" content="http://static1.squarespace.com/static/697081c247fcb90241dbf055/t/69e637343af7d1473e71f8ca/1776695092829/image-8.jpg?format=1500w">
+<title>Rene Campos for President 2028</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --red:#BF0A30;
+  --blue:#002868;
+  --blue2:#003a9a;
+  --white:#FFFFFF;
+  --cream:#F4EFE4;
+  --dark:#000d1f;
+  --gold:#C9A84C;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;background:var(--white);color:var(--blue);width:100%;overflow-x:hidden}
+
+/* NAV */
+nav{width:100%;background:var(--blue);height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:5px solid var(--red);position:sticky;top:0;z-index:9999}
+.nav-brand{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:1.3rem;letter-spacing:.22em;text-transform:uppercase;color:var(--white);white-space:nowrap;text-decoration:none}
+.nav-brand em{color:var(--red);font-style:normal}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.8);text-decoration:none;transition:color .15s}
+.nav-links a:hover{color:var(--white)}
+.nav-btn{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;padding:.5rem 1.5rem;background:var(--red);color:var(--white);text-decoration:none;white-space:nowrap;transition:filter .15s}
+.nav-btn:hover{filter:brightness(1.12)}
+
+/* HERO */
+#hero{width:100%;min-height:100vh;background:var(--blue);display:grid;grid-template-columns:52% 48%;overflow:hidden}
+.hero-text-col{display:flex;flex-direction:column;justify-content:center;padding:7vh 4vw 7vh 7vw;position:relative;z-index:2}
+.hero-pill{display:inline-flex;align-items:center;gap:.6rem;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);padding:.35rem 1rem;width:fit-content;margin-bottom:1.75rem}
+.hero-name{font-family:'Barlow Condensed',sans-serif;font-weight:900;line-height:.88;text-transform:uppercase;letter-spacing:.01em;margin-bottom:1rem}
+.hero-name .fn{display:block;font-size:clamp(5rem,9vw,10rem);color:var(--white)}
+.hero-name .ln{display:block;font-size:clamp(5rem,9vw,10rem);color:var(--red)}
+.hero-office-line{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:clamp(1rem,2vw,1.9rem);letter-spacing:.18em;text-transform:uppercase;color:var(--white);border-top:4px solid var(--red);border-bottom:1px solid rgba(255,255,255,.15);padding:.8rem 0;margin-bottom:1.5rem}
+.hero-office-line span{color:var(--gold)}
+.hero-stars{font-size:1.2rem;color:var(--gold);letter-spacing:.4rem;margin-bottom:1.5rem;display:block}
+.hero-tagline{font-size:clamp(.9rem,1.2vw,1.08rem);line-height:1.85;color:rgba(255,255,255,.78);margin-bottom:2rem;max-width:560px}
+.hero-tagline strong{color:var(--white);font-weight:600}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2.5rem}
+.btn-r{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:.9rem;letter-spacing:.15em;text-transform:uppercase;padding:1rem 2.5rem;background:var(--red);color:var(--white);text-decoration:none;display:inline-block;transition:filter .15s}
+.btn-r:hover{filter:brightness(1.12)}
+.btn-w{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:.9rem;letter-spacing:.15em;text-transform:uppercase;padding:1rem 2.5rem;background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.45);text-decoration:none;display:inline-block;transition:border-color .15s}
+.btn-w:hover{border-color:var(--white)}
+.hero-fec{font-family:'Barlow Condensed',sans-serif;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.28)}
+.hero-photo-col{position:relative;overflow:hidden}
+.hero-photo-col img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;filter:contrast(1.08) saturate(.85)}
+.hero-photo-col::before{content:'';position:absolute;top:0;left:0;width:120px;height:100%;background:linear-gradient(90deg,var(--blue),transparent);z-index:1;pointer-events:none}
+.hero-photo-col::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:80px;background:linear-gradient(transparent,var(--blue));z-index:1;pointer-events:none}
+
+/* STRIPES */
+.stripe{width:100%;height:12px;display:block;background:linear-gradient(90deg,var(--red) 0 33.3%,var(--white) 33.3% 66.6%,var(--blue) 66.6% 100%)}
+.stripe-r{width:100%;height:12px;display:block;background:linear-gradient(90deg,var(--blue) 0 33.3%,var(--white) 33.3% 66.6%,var(--red) 66.6% 100%)}
+
+/* BANNER */
+.banner{width:100%;background:var(--red);padding:2.25rem 5vw;text-align:center}
+.banner-text{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(1rem,2.2vw,1.75rem);letter-spacing:.06em;text-transform:uppercase;color:var(--white)}
+.banner-text em{color:var(--gold);font-style:normal}
+
+/* SECTIONS */
+.section{width:100%;padding:6rem 7vw}
+.ey{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.35em;text-transform:uppercase;color:var(--red);margin-bottom:.7rem;display:block}
+.sh{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2.4rem,4.5vw,4rem);text-transform:uppercase;line-height:.92;color:var(--blue);margin-bottom:2.5rem;display:block}
+.sh .r{color:var(--red)}
+.sh .g{color:var(--gold)}
+.sh-white{color:var(--white)}
+
+/* ABOUT */
+#about{background:var(--cream)}
+.about-wrap{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start;max-width:1400px;margin:0 auto}
+.about-body p{font-size:.98rem;line-height:1.9;color:#111;margin-bottom:1.2rem}
+.about-body strong{color:var(--blue);font-weight:600}
+.pillars{margin-top:2rem;display:grid;gap:.85rem}
+.pl{display:grid;grid-template-columns:2.25rem 1fr;gap:.75rem;align-items:start;padding:1rem 1.25rem;border-left:5px solid var(--red);background:rgba(191,10,48,.05)}
+.pl-star{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:1.3rem;color:var(--red);line-height:1.3}
+.pl-h{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:.87rem;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin-bottom:.2rem;display:block}
+.pl-p{font-size:.8rem;line-height:1.65;color:#444;display:block}
+.photo-stack{display:grid;gap:1rem}
+.pframe{border:4px solid var(--blue);overflow:hidden;position:relative;background:var(--blue)}
+.pframe img{width:100%;display:block;filter:contrast(1.06) saturate(.9)}
+.pframe-cap{background:var(--blue);padding:.65rem 1rem;font-family:'Barlow Condensed',sans-serif;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.6)}
+.pframe-cap strong{color:var(--white)}
+.photo-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.fec-box{background:var(--blue);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem 1rem;gap:.75rem;min-height:170px}
+.fec-year{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:3.5rem;color:var(--red);line-height:1}
+.fec-label{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--white);text-align:center}
+.fec-id{font-family:'Barlow Condensed',sans-serif;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.35)}
+
+/* PLATFORM */
+#platform{background:var(--blue);padding:6rem 7vw}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:2.5rem;background:rgba(255,255,255,.08);max-width:1400px;margin-left:auto;margin-right:auto}
+.pc{background:var(--blue);padding:2.25rem 2rem;border:1px solid rgba(255,255,255,.07);transition:background .2s}
+.pc:hover{background:var(--blue2)}
+.pc-n{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:3.5rem;color:var(--red);line-height:1;margin-bottom:.65rem;display:block}
+.pc-t{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.05rem;letter-spacing:.1em;text-transform:uppercase;color:var(--white);border-bottom:2px solid var(--red);padding-bottom:.5rem;margin-bottom:.8rem;display:block}
+.pc-b{font-size:.88rem;line-height:1.8;color:rgba(255,255,255,.68);display:block}
+
+/* GALLERY */
+#gallery{background:var(--white);padding:6rem 7vw}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.5rem;max-width:1400px;margin-left:auto;margin-right:auto}
+.gcard{position:relative;overflow:hidden;border:3px solid var(--blue)}
+.gcard img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block;filter:contrast(1.08) saturate(.85);transition:transform .4s ease}
+.gcard:hover img{transform:scale(1.04)}
+.gcard-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,40,104,.92));padding:2.5rem 1.25rem 1rem;font-family:'Barlow Condensed',sans-serif;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.gcart-static{background:var(--blue);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2.5rem;gap:1.25rem;text-align:center;aspect-ratio:4/5}
+.gcart-static .yr{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:6rem;color:var(--red);line-height:1}
+.gcart-static .ttl{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:1.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--white);line-height:1.1}
+.gcart-static .divline{width:60px;height:4px;background:var(--red)}
+.gcart-static .gsub{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.38)}
+.gcart-static .sts{font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;color:var(--gold);letter-spacing:.5rem}
+.gcart-static a{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;padding:.65rem 1.5rem;background:var(--red);color:var(--white);text-decoration:none}
+
+/* MEDIA */
+#media{background:var(--cream);padding:6rem 7vw}
+.media-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem;max-width:1400px;margin-left:auto;margin-right:auto}
+.mcard{background:var(--white);border:1px solid rgba(0,40,104,.1);border-left:5px solid var(--red);padding:1.75rem}
+.msource{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:.65rem;display:block}
+.mhead{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.05rem;line-height:1.4;color:var(--blue);margin-bottom:.65rem;display:block}
+.mbody{font-size:.83rem;line-height:1.75;color:#444}
+
+/* VIDEOS */
+#videos{background:var(--blue);padding:6rem 7vw}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem;max-width:1400px;margin-left:auto;margin-right:auto}
+.vcard{border:2px solid rgba(255,255,255,.15);overflow:hidden}
+.vcard-top{background:var(--red);padding:.65rem 1.25rem;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--white)}
+.vcard-body{background:rgba(255,255,255,.04);min-height:320px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2.5rem 1.5rem;gap:1.25rem;text-align:center}
+.tt-logo{width:56px;height:56px;background:var(--red);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.tt-logo svg{width:32px;height:32px;fill:white}
+.vcard-handle{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.1rem;letter-spacing:.1em;text-transform:uppercase;color:var(--white);display:block}
+.vcard-desc{font-size:.84rem;line-height:1.7;color:rgba(255,255,255,.55);display:block}
+.vcard-link{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;padding:.7rem 1.85rem;background:var(--red);color:var(--white);text-decoration:none;display:inline-block;margin-top:.25rem;transition:filter .15s}
+.vcard-link:hover{filter:brightness(1.12)}
+.vtt-follow{text-align:center;margin-top:2.5rem}
+
+/* RECORD */
+#record{background:var(--white);padding:6rem 7vw}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:1.35rem;margin-top:2.5rem;max-width:1400px;margin-left:auto;margin-right:auto}
+.rcard{display:grid;grid-template-columns:3.75rem 1fr;gap:1rem;align-items:start;padding:1.75rem;border:1px solid rgba(0,40,104,.1);border-left:6px solid var(--red);transition:border-color .2s}
+.rcard:hover{border-color:var(--red);background:rgba(191,10,48,.02)}
+.rn{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:2.75rem;color:var(--red);line-height:1;display:block}
+.rt{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin-bottom:.4rem;display:block}
+.rd{font-size:.83rem;line-height:1.78;color:#333;display:block}
+
+/* QUOTE */
+#qblock{background:var(--blue);padding:7rem 7vw;text-align:center}
+.bq{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(1.6rem,3.2vw,3rem);text-transform:uppercase;letter-spacing:.04em;color:var(--white);line-height:1.2;max-width:1050px;margin:0 auto 1.75rem;display:block}
+.bq .hl{color:var(--red)}
+.qa{font-family:'Barlow Condensed',sans-serif;font-size:.73rem;letter-spacing:.25em;text-transform:uppercase;color:rgba(255,255,255,.38);display:block;text-align:center}
+
+/* CTA */
+#cta{background:var(--red);padding:8rem 7vw;text-align:center}
+.cta-h{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(3rem,6vw,5.5rem);text-transform:uppercase;letter-spacing:.02em;color:var(--white);line-height:.92;margin-bottom:1.5rem;display:block}
+.cta-h span{color:var(--gold)}
+.cta-sub{font-size:1.02rem;line-height:1.78;color:rgba(255,255,255,.82);max-width:680px;margin:0 auto 3rem;display:block}
+.cta-row{display:flex;justify-content:center;gap:1.25rem;flex-wrap:wrap}
+.btn-ws{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:.95rem;letter-spacing:.15em;text-transform:uppercase;padding:1.1rem 3rem;background:var(--white);color:var(--red);text-decoration:none;display:inline-block;transition:filter .15s}
+.btn-ws:hover{filter:brightness(.95)}
+.btn-bs{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:.95rem;letter-spacing:.15em;text-transform:uppercase;padding:1.1rem 3rem;background:var(--blue);color:var(--white);text-decoration:none;display:inline-block;transition:filter .15s}
+.btn-bs:hover{filter:brightness(1.2)}
+
+/* FOOTER */
+footer{background:var(--dark);padding:3.5rem 7vw}
+.foot-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem;max-width:1400px;margin:0 auto}
+.foot-brand{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:1.4rem;letter-spacing:.2em;text-transform:uppercase;color:var(--white)}
+.foot-brand em{color:var(--red);font-style:normal}
+.foot-nav{display:flex;gap:2.5rem;list-style:none;flex-wrap:wrap}
+.foot-nav a{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.38);text-decoration:none;transition:color .15s}
+.foot-nav a:hover{color:var(--white)}
+.disc{background:var(--dark);border-top:1px solid rgba(255,255,255,.07);padding:1.5rem 7vw;text-align:center;font-family:'Barlow Condensed',sans-serif;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.2);line-height:1.8}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  #hero{grid-template-columns:1fr}
+  .hero-photo-col{display:none}
+  .hero-text-col{padding:6rem 6vw 5rem}
+  .about-wrap{grid-template-columns:1fr}
+  .pgrid{grid-template-columns:1fr 1fr}
+  .gallery-grid,.vgrid,.media-grid{grid-template-columns:1fr 1fr}
+  .rgrid{grid-template-columns:1fr}
+  nav .nav-links{display:none}
+}
+@media(max-width:600px){
+  .pgrid,.gallery-grid,.vgrid,.media-grid,.photo-grid-2{grid-template-columns:1fr}
+  .section{padding:4rem 5vw}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-brand" href="#hero">Rene <em>Campos</em> · 2028</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#platform">Platform</a></li>
+    <li><a href="#gallery">Photos</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#record">Record</a></li>
+  </ul>
+  <a href="https://donorbox.org/friends-of-rene-campos" class="nav-btn" target="_blank">★ Donate</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-text-col">
+    <div class="hero-pill">★ Official Presidential Campaign · United States · 2028</div>
+    <div class="hero-name">
+      <span class="fn">Rene</span>
+      <span class="ln">Campos</span>
+    </div>
+    <div class="hero-office-line">For President of the <span>United States</span> · 2028</div>
+    <span class="hero-stars">★ ★ ★ ★ ★ ★ ★</span>
+    <p class="hero-tagline">
+      <strong>They moved the line. We changed the scale.</strong><br>
+      A constitutional civil rights advocate, pro se litigant, and registered presidential candidate who has tested every institution from the inside — and is still moving forward.
+    </p>
+    <div class="hero-btns">
+      <a href="https://donorbox.org/friends-of-rene-campos" class="btn-r" target="_blank">★ Support the Campaign</a>
+      <a href="#platform" class="btn-w">The Platform ↓</a>
+    </div>
+    <div class="hero-fec">FEC ID: P40013386 &nbsp;·&nbsp; Fresno, California &nbsp;·&nbsp; Constitutional Civil Rights Advocate</div>
+  </div>
+  <div class="hero-photo-col">
+    <img src="http://static1.squarespace.com/static/697081c247fcb90241dbf055/t/69e637343af7d1473e71f8ca/1776695092829/image-8.jpg?format=1500w" alt="Rene Campos Presidential Candidate 2028" />
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- BANNER -->
+<div class="banner">
+  <div class="banner-text">Equal Rights. Equal Treatment. <em>No Exceptions.</em> &nbsp;★&nbsp; Campos For President 2028</div>
+</div>
+
+<div class="stripe-r"></div>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="about-wrap">
+    <div>
+      <span class="ey">The Candidate</span>
+      <span class="sh">Built by <span class="r">Adversity.</span><br>Forged in <span class="r">Action.</span></span>
+      <div class="about-body">
+        <p>Rene Campos is a <strong>Fresno-born constitutional and civil rights advocate</strong> — shaped not by privilege but by lived experience, survival, and an unshakable belief in equal justice for every American.</p>
+        <p>Raised by his mother Diana, he learned early that <strong>leadership is earned through service</strong>, not titles. Before any platform, he was already doing the work — quietly supporting individuals with disabilities, navigating bureaucracy so they wouldn't lose the support they depend on to live.</p>
+        <p>He has survived homelessness. He stepped into the role of family protector after losing his mother to COVID. He rose to corporate leadership — then filed formal complaints when others looked away. <strong>He does not speak about systems from the outside. He has tested them.</strong></p>
+      </div>
+      <div class="pillars">
+        <div class="pl"><div class="pl-star">★</div><div><span class="pl-h">Constitutional Civil Rights</span><span class="pl-p">Equal protection — not conditional on wealth, status, or political favor.</span></div></div>
+        <div class="pl"><div class="pl-star">★</div><div><span class="pl-h">Labor Rights & Accountability</span><span class="pl-p">Workers held to the same standard as every institution that employs them.</span></div></div>
+        <div class="pl"><div class="pl-star">★</div><div><span class="pl-h">Housing & Homelessness</span><span class="pl-p">A path forward that doesn't change when you reach it.</span></div></div>
+        <div class="pl"><div class="pl-star">★</div><div><span class="pl-h">Mental Health & Public Safety</span><span class="pl-p">Real investment where urgency should actually appear — not just in rhetoric.</span></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="photo-stack">
+        <div class="pframe">
+          <img src="https://images.squarespace-cdn.com/content/v1/697081c247fcb90241dbf055/40119c01-4442-4a79-b6eb-dbfce7c95598/image-8.jpg" alt="Rene Campos Fresno" />
+          <div class="pframe-cap"><strong>Rene Campos</strong> &nbsp;·&nbsp; Fresno, California &nbsp;·&nbsp; Presidential Candidate</div>
+        </div>
+        <div class="photo-grid-2">
+          <div class="pframe">
+            <img src="http://static1.squarespace.com/static/697081c247fcb90241dbf055/t/69e637343af7d1473e71f8ca/1776695092829/image-8.jpg?format=750w" alt="Rene Campos Campaign" />
+            <div class="pframe-cap"><strong>On the Trail</strong></div>
+          </div>
+          <div class="pframe fec-box">
+            <span class="fec-year">2028</span>
+            <span class="fec-label">Presidential<br>Candidate</span>
+            <span class="fec-id">FEC · P40013386</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- PLATFORM -->
+<section id="platform">
+  <div style="padding:6rem 7vw">
+    <span class="ey" style="color:var(--gold)">Presidential Platform</span>
+    <span class="sh sh-white">The Issues <span class="r">That Matter</span></span>
+    <div class="pgrid">
+      <div class="pc"><span class="pc-n">01</span><span class="pc-t">Equal Justice Under Law</span><span class="pc-b">The Constitution's promise must reach every American — not just the well-connected. Rene has tested this system firsthand and will fight to make equal protection real for everyone.</span></div>
+      <div class="pc"><span class="pc-n">02</span><span class="pc-t">Workers First</span><span class="pc-b">Living wages. Real enforcement. Corporations held to the same standard every worker faces every single day. No exceptions, no exemptions.</span></div>
+      <div class="pc"><span class="pc-n">03</span><span class="pc-t">End Institutional Corruption</span><span class="pc-b">Political networks shielding themselves from accountability while blocking public oversight are a direct threat to democracy. Transparency is non-negotiable.</span></div>
+      <div class="pc"><span class="pc-n">04</span><span class="pc-t">Housing as a Foundation</span><span class="pc-b">Federal investment in transitional housing, anti-displacement protections, and mental health infrastructure that actually responds when urgency demands it.</span></div>
+      <div class="pc"><span class="pc-n">05</span><span class="pc-t">Healthcare & Mental Health</span><span class="pc-b">A country that calls itself great cannot ignore its hospitals or the millions navigating crises without a safety net. Access is not optional.</span></div>
+      <div class="pc"><span class="pc-n">06</span><span class="pc-t">Second Chances, Full Rights</span><span class="pc-b">Reform is meaningless if the standard changes when you reach it. Full reintegration, civic participation — judged by conduct, not permanent labels.</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="stripe-r"></div>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <span class="ey">Campaign Photos</span>
+  <span class="sh">Rene Campos <span class="r">In Action</span></span>
+  <div class="gallery-grid">
+    <div class="gcard">
+      <img src="http://static1.squarespace.com/static/697081c247fcb90241dbf055/t/69e637343af7d1473e71f8ca/1776695092829/image-8.jpg?format=1500w" alt="Rene Campos Presidential Candidate" />
+      <div class="gcard-label">★ Rene Campos · Presidential Candidate 2028</div>
+    </div>
+    <div class="gcard">
+      <img src="https://images.squarespace-cdn.com/content/v1/697081c247fcb90241dbf055/40119c01-4442-4a79-b6eb-dbfce7c95598/image-8.jpg" alt="Rene Campos Civil Rights Advocate" />
+      <div class="gcard-label">★ Civil Rights Advocate · Fresno, CA</div>
+    </div>
+    <div class="gcard">
+      <div class="gcart-static">
+        <span class="yr">2028</span>
+        <span class="ttl">Campos<br>For President</span>
+        <div class="divline"></div>
+        <span class="gsub">United States of America</span>
+        <span class="sts">★★★★★</span>
+        <a href="https://www.tiktok.com/@renecampos.present" target="_blank">Follow on TikTok ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- MEDIA -->
+<section id="media" class="section">
+  <span class="ey">National Media Coverage</span>
+  <span class="sh">The Story <span class="r">America Covered</span></span>
+  <div class="media-grid">
+    <div class="mcard">
+      <span class="msource">ABC30 Action News</span>
+      <span class="mhead">Fresno Candidate Gains National Attention</span>
+      <p class="mbody">Rene Campos drew nationwide coverage after the Fresno City Council President publicly responded to his campaign — putting the race on the national political map.</p>
+    </div>
+    <div class="mcard">
+      <span class="msource">Fox News Digital</span>
+      <span class="mhead">Council President: "I Will Not Permit Him to Be Seated"</span>
+      <p class="mbody">The public declaration by the sitting Council President — made before any vote — became the foundation of Campos's constitutional challenge under Caperton v. Massey.</p>
+    </div>
+    <div class="mcard">
+      <span class="msource">KSEE 24 News</span>
+      <span class="mhead">"The Voters Actually Supported Someone Like That"</span>
+      <p class="mbody">The political establishment admitted publicly they never expected voter support. The voters saw something different — and the establishment moved to stop it.</p>
+    </div>
+  </div>
+</section>
+
+<div class="stripe-r"></div>
+
+<!-- VIDEOS -->
+<section id="videos" style="background:var(--blue);padding:6rem 7vw">
+  <span class="ey" style="color:var(--gold)">From the Candidate</span>
+  <span class="sh sh-white">Watch Rene <span class="g">on TikTok</span></span>
+  <p style="font-size:.97rem;line-height:1.78;color:rgba(255,255,255,.72);margin-bottom:2.5rem;max-width:700px;display:block">Follow <strong style="color:var(--white)">@renecampos.present</strong> for campaign updates, civil rights advocacy, and unfiltered coverage of the fight for accountability in Fresno and across America.</p>
+  <div class="vgrid">
+    <div class="vcard">
+      <div class="vcard-top">★ Campaign Updates</div>
+      <div class="vcard-body">
+        <div class="tt-logo"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.77a4.85 4.85 0 01-1.01-.08z"/></svg></div>
+        <span class="vcard-handle">@renecampos.present</span>
+        <span class="vcard-desc">Live campaign coverage, press conferences, and the latest from the trail.</span>
+        <a href="https://www.tiktok.com/@renecampos.present" class="vcard-link" target="_blank">Watch on TikTok ↗</a>
+      </div>
+    </div>
+    <div class="vcard">
+      <div class="vcard-top">★ Civil Rights Coverage</div>
+      <div class="vcard-body">
+        <div class="tt-logo"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.77a4.85 4.85 0 01-1.01-.08z"/></svg></div>
+        <span class="vcard-handle">CPRA · Legal Battles</span>
+        <span class="vcard-desc">Documented accountability fights — CPRA enforcement and constitutional challenges.</span>
+        <a href="https://www.tiktok.com/@renecampos.present" class="vcard-link" target="_blank">Follow for Updates ↗</a>
+      </div>
+    </div>
+    <div class="vcard">
+      <div class="vcard-top">★ National Media Moments</div>
+      <div class="vcard-body">
+        <div class="tt-logo"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.77a4.85 4.85 0 01-1.01-.08z"/></svg></div>
+        <span class="vcard-handle">ABC30 · FOX · KSEE</span>
+        <span class="vcard-desc">Watch the moments that made the political establishment respond publicly.</span>
+        <a href="https://www.tiktok.com/@renecampos.present" class="vcard-link" target="_blank">View Content ↗</a>
+      </div>
+    </div>
+  </div>
+  <div class="vtt-follow">
+    <a href="https://www.tiktok.com/@renecampos.present" target="_blank" style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:.92rem;letter-spacing:.15em;text-transform:uppercase;padding:1rem 3rem;background:var(--red);color:var(--white);text-decoration:none;display:inline-block">★ Follow @renecampos.present on TikTok</a>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- RECORD -->
+<section id="record" class="section">
+  <span class="ey">Documented Record</span>
+  <span class="sh">He Documents. He Challenges.<br><span class="r">He Forces Accountability.</span></span>
+  <div class="rgrid">
+    <div class="rcard"><span class="rn">01</span><div><span class="rt">Federal Presidential Candidate</span><span class="rd">Registered with the FEC (ID: P40013386). A public record of civic commitment at the highest level of American democracy.</span></div></div>
+    <div class="rcard"><span class="rn">02</span><div><span class="rt">Fresno City Council — District 7</span><span class="rd">Ran for D7 Council, gained national media coverage across ABC30, FOX News, and KSEE. Refused to disappear when the system tried to erase him.</span></div></div>
+    <div class="rcard"><span class="rn">03</span><div><span class="rt">CPRA Enforcement — 2 Active Cases</span><span class="rd">Exposing Measure P embezzlement and facial recognition surveillance overreach. Cases R096315 and R096930 — city stonewalling documented and filed.</span></div></div>
+    <div class="rcard"><span class="rn">04</span><div><span class="rt">Bill of Attainder Challenge</span><span class="rd">Self-represented litigant challenging AB 2753 — state legislation authored specifically to target his candidacy — as an unconstitutional bill of attainder.</span></div></div>
+    <div class="rcard"><span class="rn">05</span><div><span class="rt">Disability & Benefits Advocacy</span><span class="rd">Years of unpaid, unrecognized service helping individuals with disabilities navigate bureaucracy — because no one else would show up.</span></div></div>
+    <div class="rcard"><span class="rn">06</span><div><span class="rt">Corporate Accountability Filings</span><span class="rd">Rose to operational leadership inside major corporations — then built documented cases against misconduct and forced accountability through legal channels.</span></div></div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section id="qblock">
+  <span class="bq">"If urgency exists — why doesn't it show up <span class="hl">for the homeless,<br>for our schools, for our hospitals?"</span></span>
+  <span class="qa">— Rene Campos · Fresno, California · Presidential Candidate 2028</span>
+</section>
+
+<div class="stripe-r"></div>
+
+<!-- CTA -->
+<section id="cta">
+  <span class="cta-h">Ready to <span>Fight</span><br>for America?</span>
+  <span class="cta-sub">The moment people felt privately is now impossible to ignore. Join the campaign. Support the fight. Make 2028 the election they didn't see coming.</span>
+  <div class="cta-row">
+    <a href="https://donorbox.org/friends-of-rene-campos" class="btn-ws" target="_blank">★ Donate Now</a>
+    <a href="https://www.rene-campos.com/contact" class="btn-bs" target="_blank">Get Involved</a>
+    <a href="https://www.tiktok.com/@renecampos.present" class="btn-bs" target="_blank">Follow on TikTok</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-row">
+    <div class="foot-brand">Rene <em>Campos</em> · 2028</div>
+    <ul class="foot-nav">
+      <li><a href="https://www.rene-campos.com" target="_blank">Official Site</a></li>
+      <li><a href="https://www.rene-campos.com/about" target="_blank">About</a></li>
+      <li><a href="https://www.rene-campos.com/contact" target="_blank">Contact</a></li>
+      <li><a href="https://www.tiktok.com/@renecampos.present" target="_blank">TikTok</a></li>
+      <li><a href="https://donorbox.org/friends-of-rene-campos" target="_blank">Donate</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="disc">
+  Paid for by the Committee to Elect Rene Campos &nbsp;·&nbsp; FEC ID: P40013386<br>
+  Not authorized by any candidate or candidate's committee &nbsp;·&nbsp; Contributions are not tax deductible as charitable donations
+</div>
+
+</body>
+</html>
